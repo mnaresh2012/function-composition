@@ -1,6 +1,6 @@
 module.exports = function cardHTML({title, description, imageUrl}) {
   return `
-  <div class="card">
+  <div class="card" style="width: 30em">
     <img class="card-img-top" src="${imageUrl}" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">${title}</h5>

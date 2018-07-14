@@ -16,8 +16,10 @@ const compose = (...fns) =>
 
 const gallery = compose(createHTMLElement, containerHTML, rowHTML, colHTML, cardHTML);
 
-const d = gallery({title, description, imageUrl});
+module.exports = gallery;
+
+/*const d = gallery({title, description, imageUrl});
 
 document
   .getElementById('app')
-  .appendChild(d);
+  .appendChild(d);*/
